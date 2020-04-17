@@ -8,12 +8,9 @@ sudo apt-get update
 sudo apt-get install --reinstall bash-completion
 sudo apt-get install -y \
   fonts-inconsolata \
-  net-tools \
-  openssh-server openssh-client \
-  libnss3-tools \
-  vim \
-  curl wget \
-  lnav \
+  net-tools curl wget \
+  openssh-server openssh-client libnss3-tools \
+  vim lnav \
   git \
   keepassx
 
