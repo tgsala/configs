@@ -1,0 +1,9 @@
+# ~/.local/share/applications/postman.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=<POSTMAN_PATH>/Postman %U
+Icon=<POSTMAN_PATH>/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
