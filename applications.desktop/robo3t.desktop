@@ -1,0 +1,9 @@
+# ~/.local/share/applications/robo3t.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=Robo3T
+Exec=<ROBO3T_PATH>/bin/robo3t %U
+Icon=<CUSTOM_PATH>/robo3t.png
+Terminal=false
+Type=Application
+Categories=Development;
