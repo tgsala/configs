@@ -1,0 +1,1 @@
+Configs genéricas e utilitários
