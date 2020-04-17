@@ -38,8 +38,7 @@ alias dkn-clear='docker network prune'
 alias dkv-clear='docker volume prune'
 
 function dki {
-  if [ -z "$1" ]
-  then
+  if [ -z "$1" ]; then
     docker image ls --filter "dangling=false"
   else
     docker image $@
@@ -47,8 +46,7 @@ function dki {
 }
 
 function dkc {
-  if [ -z "$1" ]
-  then
+  if [ -z "$1" ]; then
     docker container ls -a
   else
     docker container $@
@@ -60,8 +58,7 @@ function dkc-bash {
 }
 
 function dkn {
-   if [ -z "$1" ]
-   then
+   if [ -z "$1" ]; then
      docker network ls
    else
      docker network $@
@@ -69,8 +66,7 @@ function dkn {
 }
 
 function dkv {
-   if [ -z "$1" ]
-   then
+   if [ -z "$1" ]; then
      docker volume ls
    else
      docker volume $@
