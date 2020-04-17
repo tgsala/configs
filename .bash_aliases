@@ -32,10 +32,20 @@ function pubkey_enable {
 # -- DOCKER -- #
 
 alias dki-update='docker images --format "{{.Repository}}:{{.Tag}}" | grep -v "<none>" | sort | uniq | xargs -L1 docker pull'
-alias dkc-clear='docker container stop $(docker container ls -aq) && docker container rm $(docker container ls -aq)'
 alias dki-clear='docker image prune'
 alias dkn-clear='docker network prune'
 alias dkv-clear='docker volume prune'
+
+function dkc-clear {
+  if [ $# -eq 0 ]; then
+    local ALL_CONTAINERS="$(docker container ls -aq)"
+    docker container stop $ALL_CONTAINERS
+    docker container rm $ALL_CONTAINERS
+  else
+    docker container stop "$@"
+    docker container rm "$@"
+  fi
+}
 
 function dki {
   if [ -z "$1" ]; then
