@@ -1,170 +1,170 @@
 {
-    "breadcrumbs.enabled": true,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.renderIndicators": true,
-    "editor.acceptSuggestionOnCommitCharacter": true,
-    "editor.acceptSuggestionOnEnter": "on",
-    "editor.accessibilitySupport": "off",
-    "editor.autoClosingBrackets": "always",
-    "editor.autoClosingQuotes": "always",
-    "editor.autoIndent": "full",
-    "editor.codeLens": false,
-    "editor.colorDecorators": true,
-    "editor.cursorStyle": "line",
-    "editor.detectIndentation": true,
-    "editor.dragAndDrop": false,
-    "editor.fontFamily": "Inconsolata Medium, monospace",
-    "editor.fontSize": 14,
-    "editor.fontWeight": "normal",
-    "editor.insertSpaces": true,
-    "editor.lineNumbers": "on",
-    "editor.matchBrackets": "never", // evita conflito com Bracket Pair Colorizer 2
-    "editor.minimap.maxColumn": 150,
-    "editor.mouseWheelZoom": false,
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all",
-    "editor.rulers": [ 150 ],
-    "editor.selectionHighlight": true,
-    "editor.scrollBeyondLastLine": false,
-    "editor.smoothScrolling": false,
-    "editor.tabCompletion": "off",
-    "editor.tabSize": 2,
-    "editor.trimAutoWhitespace": true,
-    "editor.useTabStops": true,
-    "editor.wordWrap": "off",
-    "editor.wordWrapColumn": 150,
-    "explorer.confirmDragAndDrop": true,
-    "explorer.sortOrder": "type",
-    "extensions.autoUpdate": true,
-    "extensions.ignoreRecommendations": true,
-    "files.autoGuessEncoding": false,
-    "files.autoSave": "off",
-    "files.encoding": "utf8",
-    "files.eol": "\n",
-    "files.exclude": {
-      "**/.DS_Store": true,
-      "**/.git": true,
-      "**/node_modules": true
-    },
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "files.watcherExclude": {
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/node_modules": true
-    },
-    "git.enabled": true,
-    "git.confirmSync": true,
-    "html.format.endWithNewline": true,
-    "html.format.wrapLineLength": 150,
-    "merge-conflict.diffViewPosition": "Below",
-    "search.exclude": {
-        "**/.DS_Store": true,
-        "**/.git": true,
-        "**/node_modules": true
-    },
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "terminal.explorerKind": "integrated",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.check.npmIsInstalled": false,
-    "typescript.disableAutomaticTypeAcquisition": true,
-    "typescript.implementationsCodeLens.enabled": false,
-    "typescript.referencesCodeLens.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.openFilesInNewWindow": "off",
-    "window.restoreFullscreen": false,
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "One Dark Pro", // ext: One Dark Pro
-    "workbench.enableExperiments": false,
-    "workbench.iconTheme": "material-icon-theme", // ext: Material Icon Theme
-    "workbench.settings.editor": "json",
-    "workbench.settings.enableNaturalLanguageSearch": false,
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderIndicators": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoIndent": "full",
+  "editor.codeLens": false,
+  "editor.colorDecorators": true,
+  "editor.cursorStyle": "line",
+  "editor.detectIndentation": true,
+  "editor.dragAndDrop": false,
+  "editor.fontFamily": "Inconsolata Medium, monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.insertSpaces": true,
+  "editor.lineNumbers": "on",
+  "editor.matchBrackets": "never", // evita conflito com Bracket Pair Colorizer 2
+  "editor.minimap.maxColumn": 150,
+  "editor.mouseWheelZoom": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [ 150 ],
+  "editor.selectionHighlight": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": false,
+  "editor.tabCompletion": "off",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 150,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.sortOrder": "type",
+  "extensions.autoUpdate": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoGuessEncoding": false,
+  "files.autoSave": "off",
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "git.enabled": true,
+  "git.confirmSync": true,
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 150,
+  "merge-conflict.diffViewPosition": "Below",
+  "search.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.explorerKind": "integrated",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.check.npmIsInstalled": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.implementationsCodeLens.enabled": false,
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.openFilesInNewWindow": "off",
+  "window.restoreFullscreen": false,
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "One Dark Pro", // ext: One Dark Pro
+  "workbench.enableExperiments": false,
+  "workbench.iconTheme": "material-icon-theme", // ext: Material Icon Theme
+  "workbench.settings.editor": "json",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
 
-    // Windows
-    // "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
-    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // Windows
+  // "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
 
-    "[json]":  {
-        "editor.quickSuggestions": {
-            "strings": true
-        }
-    },
-    "[markdown]":  {
-        "editor.quickSuggestions": false,
-        "files.trimTrailingWhitespace": false
-    },
-    "[yaml]":  {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2
-    },
-
-    // ext: Auto Close Tag
-    "auto-close-tag.activationOnLanguage": [
-        "javascript", "json", "php", "plaintext",
-        "typescript", "vue", "xml"
-    ],
-    "auto-close-tag.SublimeText3Mode": true,
-
-    // ext: Bracket Pair Colorizer 2
-    "bracket-pair-colorizer-2.colors": [ "Gold", "Lime", "Red", "Cyan", "White" ],
-    "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
-    "bracket-pair-colorizer-2.forceIterationColorCycle": false,
-    "bracket-pair-colorizer-2.highlightActiveScope": true,
-    "bracket-pair-colorizer-2.showBracketsInGutter": false,
-    "bracket-pair-colorizer-2.showBracketsInRuler": false,
-    "bracket-pair-colorizer-2.showVerticalScopeLine": true,
-    "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
-    "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
-
-    // ext: GitLens
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": true,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    },
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.hovers.enabled": false,
-    "gitlens.keymap": "chorded",
-    "gitlens.menus": false,
-    "gitlens.mode.statusBar.enabled": false,
-    "gitlens.recentChanges.highlight.locations": [ "gutter", "overview" ],
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "gitlens.views.repositories.enabled": false,
-
-    // OneDark: https://glitchbone.github.io/vscode-base16-term/#/onedark
-    "workbench.colorCustomizations": {
-      "terminal.background":"#282C34",
-      "terminal.foreground":"#ABB2BF",
-      "terminalCursor.background":"#ABB2BF",
-      "terminalCursor.foreground":"#ABB2BF",
-      "terminal.ansiBlack":"#282C34",
-      "terminal.ansiBlue":"#61AFEF",
-      "terminal.ansiBrightBlack":"#545862",
-      "terminal.ansiBrightBlue":"#61AFEF",
-      "terminal.ansiBrightCyan":"#56B6C2",
-      "terminal.ansiBrightGreen":"#98C379",
-      "terminal.ansiBrightMagenta":"#C678DD",
-      "terminal.ansiBrightRed":"#E06C75",
-      "terminal.ansiBrightWhite":"#C8CCD4",
-      "terminal.ansiBrightYellow":"#E5C07B",
-      "terminal.ansiCyan":"#56B6C2",
-      "terminal.ansiGreen":"#98C379",
-      "terminal.ansiMagenta":"#C678DD",
-      "terminal.ansiRed":"#E06C75",
-      "terminal.ansiWhite":"#ABB2BF",
-      "terminal.ansiYellow":"#E5C07B"
+  "[json]":  {
+    "editor.quickSuggestions": {
+      "strings": true
     }
+  },
+  "[markdown]":  {
+    "editor.quickSuggestions": false,
+    "files.trimTrailingWhitespace": false
+  },
+  "[yaml]":  {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+
+  // ext: Auto Close Tag
+  "auto-close-tag.activationOnLanguage": [
+    "javascript", "json", "php", "plaintext",
+    "typescript", "vue", "xml"
+  ],
+  "auto-close-tag.SublimeText3Mode": true,
+
+  // ext: Bracket Pair Colorizer 2
+  "bracket-pair-colorizer-2.colors": [ "Gold", "Lime", "Red", "Cyan", "White" ],
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": false,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.showBracketsInGutter": false,
+  "bracket-pair-colorizer-2.showBracketsInRuler": false,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+  "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+
+  // ext: GitLens
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": true,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.keymap": "chorded",
+  "gitlens.menus": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.recentChanges.highlight.locations": [ "gutter", "overview" ],
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.views.repositories.enabled": false,
+
+  // OneDark: https://glitchbone.github.io/vscode-base16-term/#/onedark
+  "workbench.colorCustomizations": {
+    "terminal.background":"#282C34",
+    "terminal.foreground":"#ABB2BF",
+    "terminalCursor.background":"#ABB2BF",
+    "terminalCursor.foreground":"#ABB2BF",
+    "terminal.ansiBlack":"#282C34",
+    "terminal.ansiBlue":"#61AFEF",
+    "terminal.ansiBrightBlack":"#545862",
+    "terminal.ansiBrightBlue":"#61AFEF",
+    "terminal.ansiBrightCyan":"#56B6C2",
+    "terminal.ansiBrightGreen":"#98C379",
+    "terminal.ansiBrightMagenta":"#C678DD",
+    "terminal.ansiBrightRed":"#E06C75",
+    "terminal.ansiBrightWhite":"#C8CCD4",
+    "terminal.ansiBrightYellow":"#E5C07B",
+    "terminal.ansiCyan":"#56B6C2",
+    "terminal.ansiGreen":"#98C379",
+    "terminal.ansiMagenta":"#C678DD",
+    "terminal.ansiRed":"#E06C75",
+    "terminal.ansiWhite":"#ABB2BF",
+    "terminal.ansiYellow":"#E5C07B"
+  }
 }
