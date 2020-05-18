@@ -28,6 +28,7 @@
   "editor.semanticTokenColorCustomizations": { "enabled": false },
   "editor.scrollBeyondLastLine": false,
   "editor.smoothScrolling": false,
+  "editor.snippetSuggestions": "none",
   "editor.tabCompletion": "off",
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
