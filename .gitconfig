@@ -54,3 +54,4 @@
   mt = mergetool
   discard = checkout -- *
   mg = merge --no-ff --no-edit
+  tagdel = "!f() { git tag --delete $1 && git push --delete origin $1; }; f"
