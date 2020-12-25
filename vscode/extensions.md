@@ -8,3 +8,9 @@
 - Bracket Pair Colorizer 2
 - GitLens
 - Peek Hidden Files
+
+
+## Intergrations
+- ESLint
+- Python
+- REG
