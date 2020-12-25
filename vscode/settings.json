@@ -1,4 +1,9 @@
 {
+  // Windows
+  "git.enabled": true,
+  "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
   "breadcrumbs.enabled": true,
   "diffEditor.ignoreTrimWhitespace": true,
   "diffEditor.renderIndicators": true,
@@ -24,9 +29,9 @@
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
   "editor.rulers": [ 150 ],
+  "editor.scrollBeyondLastLine": false,
   "editor.selectionHighlight": true,
   "editor.semanticTokenColorCustomizations": { "enabled": false },
-  "editor.scrollBeyondLastLine": false,
   "editor.smoothScrolling": false,
   "editor.snippetSuggestions": "none",
   "editor.tabCompletion": "off",
@@ -43,7 +48,6 @@
   "files.autoGuessEncoding": false,
   "files.autoSave": "off",
   "files.encoding": "utf8",
-  "files.eol": "\n",
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -56,25 +60,14 @@
     "**/.git": true,
     "**/node_modules": true
   },
-  "git.enabled": true,
   "git.confirmSync": true,
-  "html.format.endWithNewline": true,
-  "html.format.wrapLineLength": 150,
   "merge-conflict.diffViewPosition": "Below",
   "search.exclude": {
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/node_modules": true
+    "**/.log": true
   },
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "terminal.explorerKind": "integrated",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.check.npmIsInstalled": false,
-  "typescript.disableAutomaticTypeAcquisition": true,
-  "typescript.implementationsCodeLens.enabled": false,
-  "typescript.referencesCodeLens.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
   "window.openFilesInNewWindow": "off",
   "window.restoreFullscreen": false,
   "window.zoomLevel": 0,
@@ -86,9 +79,21 @@
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
 
-  // Windows
-  // "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
-  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 150,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.check.npmIsInstalled": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.implementationsCodeLens.enabled": false,
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "files.associations": {
+    "*.bas": "vb",
+    "*.frm": "vb",
+    "*.cls": "vb",
+    "*.cls_doc": "vb"
+  },
 
   "[json]":  {
     "editor.quickSuggestions": {
@@ -99,6 +104,9 @@
     "editor.quickSuggestions": false,
     "files.trimTrailingWhitespace": false
   },
+  "[vb]": {
+    "files.encoding": "windows1252"
+  },
   "[yaml]":  {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
@@ -106,8 +114,8 @@
 
   // ext: Auto Close Tag
   "auto-close-tag.activationOnLanguage": [
-    "javascript", "json", "php", "plaintext",
-    "typescript", "vue", "xml"
+    "javascript", "json", "jsx", "php", "plaintext",
+    "tsx", "typescript", "vue", "xml"
   ],
   "auto-close-tag.SublimeText3Mode": true,
 
@@ -142,8 +150,6 @@
   "gitlens.keymap": "chorded",
   "gitlens.menus": false,
   "gitlens.mode.statusBar.enabled": false,
-  "gitlens.recentChanges.highlight.locations": [ "gutter", "overview" ],
-  "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "gitlens.views.repositories.enabled": false,
 
