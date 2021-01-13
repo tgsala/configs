@@ -18,7 +18,7 @@
   "editor.cursorStyle": "line",
   "editor.detectIndentation": true,
   "editor.dragAndDrop": false,
-  "editor.fontFamily": "Inconsolata Medium, monospace",
+  "editor.fontFamily": "'Inconsolata Medium', Inconsolata, Consolas, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.fontWeight": "normal",
   "editor.insertSpaces": true,
