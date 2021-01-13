@@ -12,15 +12,16 @@ healthcheck:
 const http = require('http');
 
 const options = {
-  host : 'localhost',
-  port : process.env.PORT, // || DEFAULT_PORT,
-  timeout : 2000,
+  host: 'localhost',
+  port: process.env.PORT, // || DEFAULT_PORT,
+  timeout: 2000,
 };
 
 const req = http.request(options, (res) => {
   console.log(`STATUS: ${res.statusCode}`);
-  if (res.statusCode !== 200)
+  if (res.statusCode !== 200) {
     return process.exit(1);
+  }
   process.exit(0);
 });
 
