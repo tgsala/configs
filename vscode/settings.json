@@ -1,8 +1,8 @@
 {
   // Windows
   "git.enabled": true,
-  "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "git.path": "C:\\dev\\Git\\bin\\git.exe",
+  "terminal.integrated.shell.windows": "C:\\dev\\Git\\bin\\bash.exe",
 
   "breadcrumbs.enabled": true,
   "diffEditor.ignoreTrimWhitespace": true,
@@ -18,7 +18,7 @@
   "editor.cursorStyle": "line",
   "editor.detectIndentation": true,
   "editor.dragAndDrop": false,
-  "editor.fontFamily": "'Inconsolata Medium', Inconsolata, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Inconsolata, Consolas, 'Ubuntu Mono', 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.fontWeight": "normal",
   "editor.insertSpaces": true,
@@ -137,21 +137,16 @@
     "suppressFileNotUnderSourceControlWarning": true,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true,
-    "suppressUpdateNotice": false,
-    "suppressWelcomeNotice": true
+    "suppressNoRepositoryWarning": false
   },
-  "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.defaultDateFormat": "YYYY-MM-DD HH:mm",
+  "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+  "gitlens.defaultTimeFormat": "HH:mm",
   "gitlens.hovers.enabled": false,
   "gitlens.keymap": "chorded",
   "gitlens.menus": false,
   "gitlens.mode.statusBar.enabled": false,
-  "gitlens.views.lineHistory.enabled": true,
-  "gitlens.views.repositories.enabled": false,
 
   // OneDark: https://glitchbone.github.io/vscode-base16-term/#/onedark
   "workbench.colorCustomizations": {
