@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    // Themes
+    "pkief.material-icon-theme", // Material Icon Theme
+    "zhuangtongfa.material-theme", // One Dark Pro
+
+    // Capabilities
+    "formulahendry.auto-close-tag", // Auto Close Tag
+    "coenraads.bracket-pair-colorizer-2", // Bracket Pair Colorizer 2
+    "eamodio.gitlens", // GitLens
+    "formulahendry.code-runner", // Code Runner
+    "adrianwilczynski.toggle-hidden", // Peek Hidden Files
+
+    // Intergrations
+    "dbaeumer.vscode-eslint", // ESLint
+    "ms-python.python", // Python
+    "ionutvmi.reg" // REG
+  ],
+  "unwantedRecommendations": []
+}
