@@ -1,5 +1,5 @@
-# ~/.minttyrc
-# Change Git Bash visuals (Windows)
+# ~/.minttyrc (Windows)
+# Change Git Bash visuals
 Font=Inconsolata
 FontHeight=10
 Columns=120
